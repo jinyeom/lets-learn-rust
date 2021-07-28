@@ -30,6 +30,9 @@ fn main() {
         //
         // If parse() executes successfully, we return the number; move to the
         // next iteration of the loop otherwise.
+        //
+        // Note that not annotating the data type here results in error during
+        // compilation.
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
             Err(_) => continue
