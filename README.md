@@ -1,2 +1,2 @@
 # lets-learn-rust
-Learning Rust Programming Language
+Let's learn Rust so we can do some useful things with it!
